@@ -11,7 +11,7 @@ public class MonroyPetPrincipal {
 			MonroyPet mascota2 = crearMascota("Crea tu segunda mascota");
 			do {
 				menu();
-				seleccion = pedirNumero("Introduzca una opción de");
+				seleccion = pedirNumero("Introduzca una opción desde casa");
 				gestionarMenu(seleccion, mascota1, mascota2);
 			} while (seleccion!=5 && MonroyPet.getMinutos()<100);
 		}catch(MonroyPetException e) {
